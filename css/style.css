@@ -1,0 +1,120 @@
+body{
+  margin-top: 10px;
+
+  background-color: #ffffff;
+  color: green;
+}
+
+/*div1
+{
+
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 150px;
+  height: 300px;
+
+}
+
+div2
+{
+  margin-top: 10px;
+  margin-right:10px;
+  width: 150px;
+  height: 300px;
+}*/
+
+h1
+{
+  text-align: center;;
+}
+/*4个标题*/
+.skillTit
+{
+  font-size: 20px;
+  margin-top: 200px;
+}
+.introductionTit
+{
+  font-size: 20px;
+  margin-top: 10px;
+}
+.homeTit
+{
+  font-size: 20px;
+  margin-top: 10px;
+}
+.schoolTit
+{
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.aa
+{
+  float: left;
+  width: 49%;
+  border: 1px dashed #f00;
+
+}
+
+.bb
+{
+  float: left;
+  width: 49%;
+  border: 1px solid #000;
+}
+
+
+
+/*.container
+{
+  margin-top: 20px;
+  margin-right: 20px;
+
+  text-align: right;;
+}*/
+.introduction p2
+{
+  width:90%;
+}
+img{
+
+  width: 30%;
+  height: 10%;
+
+}
+
+nav
+{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/*设置图片*/
+.home
+{
+   width: 140%;
+   height: 140%;
+
+}
+.school
+{
+  width: 140%;
+  height: 140%;
+
+}
+
+
+/*设置所有的section样式*/
+section
+{
+  /*首行缩进2个字*/
+  text-indent: 2em;
+  width: 100%;
+  height: 40%;
+  border-style: groove;
+  border-width: 2px;
+  border-color: red;
+  margin: 5px 0px;
+  /*margin-top: 150px;*/
+}
