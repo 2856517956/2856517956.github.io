@@ -4,7 +4,21 @@
             <a class="weui-cell weui-cell_access" ng-href='#/book_list/{{item.id}}' style="width:100%;height:200px;">
                 <div class="weui-cell__bd" style="width:200px;height:180px;">
 
+
+
+            <!--  "title": "一个人住第几年？（高木直子最新绘本）",
+            "img": "http://img3x7.ddimg.cn/28/7/24030397-1_l_2.jpg",
+            "author": "高木直子",
+            "publister": "百花洲文艺出版社",
+            "publist_time": "2016-09-30",
+            "link": "http://product.dangdang.com/24030397.html",
+            "price": "¥21.60"
+            -->
                     <img src="{{item.img}}">
+                    <p>{item.title}</p>
+                    <p>{{item.author}}</p>
+                    <p>{{item.publisher}}</p>
+                    <p>{{item.price}}</p>
                     <!-- <p>{{item.id}}</p> -->
 
                 </div>
