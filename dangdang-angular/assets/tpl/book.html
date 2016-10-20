@@ -2,7 +2,7 @@
 
   <div class="weui-cells" ng-repeat='item in bookTypes'>
             <a class="weui-cell weui-cell_access" ng-href='#/book_list/{{item.id}}' style="width:100%;height:200px;">
-                <div class="weui-cell__bd" style="width:200px;height:250px;">
+                <div class="weui-cell__bd" >
 
 
 
@@ -14,11 +14,12 @@
             "link": "http://product.dangdang.com/24030397.html",
             "price": "¥21.60"
             -->
-                    <img src="{{item.img}}">
+                    <img src="{{item.img}}" style="width:150px;height:150px;margin-right:5px;display:block">
               </div>
               <div class="weui-cell__bd">
                   <p>{{item.title}}</p>
                   <p>{{item.publisher}}</p>
+                  <p>{{item.price}}</p>
 
               </div>
                 <div class="weui-cell__ft">{{item.description}}</div>
