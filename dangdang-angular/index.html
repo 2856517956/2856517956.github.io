@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>当当网热搜</title>
   <link rel="stylesheet" href="./assets/lib/weui/weui.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
   <style>
 
   html,body{
@@ -33,7 +34,7 @@
                 <div ng-view style="background-color:#999999;">
                 </div>
               </div> -->
-              <div class="weui-tabbar" ng-controller='mainController'>
+              <div class="weui-tabbar footer-nav" ng-controller='mainController'>
                   <a href="#/" ng-click='linkTo(0)' class="weui-tabbar__item {{selectedIndex==0?'weui-bar__item_on':''}}">
                       <img src="./assets/images/icon_tabbar.png" alt="" class="weui-tabbar__icon">
                       <p class="weui-tabbar__label">首页</p>
