@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta content="快乐学习,报考,备考,家教,补习,化学,物理,英语,语文,数学,厦门,福州,泉州,南昌,合肥,初一,初二,初三,高一,高二,高三,中考,高考" name="keywords"/>
+<meta content="快乐学习教育科技集团，由快乐学习教育咨询工作室发展壮大而来。目前，集团核心业务包括：为中小学生提供专业的课外辅导，为大学生引导合理的职业生涯规划，为家长提供科学的家庭教育指导，
+      为实施素质教育推广与传播快乐学习法。" name="description"/>
+<!--<meta name="baidu-site-verification" content="LBXNgVWF5Q" />-->
+<meta name="baidu-tc-verification" content="0f1e5ad74c03133845b3e6bc470560f8" />
+    <link rel="shortcut icon" href="../../../Public/images/logo.png">
+<!-- 新 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<!--可选的Bootstrap主题文件（一般不用引入）-->
+<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+<link rel="stylesheet" type="text/css" href="../../../Public/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="../../../Public/css/style_v1.min.css">
+
+<link rel="stylesheet" href="../../../Public/css/style.min.css">
+
+<link rel="stylesheet" href="../../../Public/css/pages.min.css">
+
+    <!--jQuery文件。务必在bootstrap.min.js 之前引入-->
+<script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+<!--最新的 Bootstrap 核心 JavaScript 文件-->
+<script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+<script>
+        (function () {
+            var bp = document.createElement('script');
+            var curProtocol = window.location.protocol.split(':')[0];
+            if (curProtocol === 'https') {
+                bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+            }
+            else {
+                bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+            }
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(bp, s);
+        })();
+
+</script>
+
+    <title>快乐学习官网|首页</title>
+</head>
+<body>
+<div class="header">
+
+    <script type="text/javascript">
+        $(function () {
+            $("#home").addClass("select_menu");
+        })
+    </script>
+    <div class="top" align="center" style="width:100%;">
+    <div class="container">
+        <div class="select-city">
+            <a href="/klxuexi/index.php/home/index/xiamen.html" city="xiamen">厦门</a>
+            <a href="/klxuexi/index.php/home/index/fuzhou.html" city="fuzhou">福州</a>
+            <a href="/klxuexi/index.php/home/index/quanzhou.html" city="quanzhou">泉州</a>
+            <a href="/klxuexi/index.php/home/index/nanchang.html" city="nanchang">南昌</a>
+            <a href="/klxuexi/index.php/home/index/hefei.html" city="hefei">合肥</a>
+        </div>
+        <div class="right_div" style="font-size: 16px;">
+            <img src="../../../Public/images/phone3.png" style="padding-right: 10px;width:25px;"/>
+            精品小班：0592-2042086,2042053，1对1辅导：0592-2042000</span>
+        </div>
+    </div>
+</div>
+<div class="nav" align="center"  style="width:100%;">
+    <!-- top开始 -->
+    <div class="nav-content container" style="margin-bottom: 5px;padding-left: 0px;">
+        <div class="col-lg-10 col-md-10 col-xs-10 col-sm-10" style="overflow: hidden;">
+            <div class="logo"  style="width:80px;">
+                <a href="/klxuexi/index.php/Home/Index/index">
+                    <img src="../../../Public/images/logo.png" class="logo_img" style="width:80px;"/>
+                </a>
+            </div>
+            <ul class="nav-ul" style="height:70px;overflow: hidden;">
+                <li>
+                    <a href="/klxuexi/index.php/home/index/index.html" id="home">首页</a>
+                </li>
+                <li><a href="/klxuexi/index.php/home/teacher/index.html" id="starTeacher">星级名师</a></li>
+                <li><a href="/klxuexi/index.php/home/article/latestnews.html" id="latestNews">最新资讯</a></li>
+                <li><a href="/klxuexi/index.php/home/course/index.html" id="searchCourse">课程搜索</a></li>
+                <li><a href="/klxuexi/index.php/home/school/index.html" id="schoolQuery">校区信息</a></li>
+                <li><a href="/klxuexi/index.php/home/index/gxh.html" id="gxh">1对1辅导</a></li>
+                <li><a href="/klxuexi/index.php/home/index/aboutus.html" id="contactUs">关于我们</a></li>
+            </ul>
+        </div>
+        <div class = "col-lg-2 col-md-2 col-xs-2 col-sm-2">
+            <div class="input-group" style="margin-top: 18px;">
+                <input class="form-control" value="" name="" type="text"  id="searchInput" style="border-color: red;width: 140px" placeholder="课程、老师、校区"/>
+                <span class="input-group-addon cur" type="button"  onclick="search();" style="background-color: red;color: #fff;border-color: red;">
+                    <i class="fa fa-search" ></i>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+<!--top结束-->
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".select-city a").each(function () {
+            var curCity = 'xiamen';
+            if ($(this).attr('city') == curCity) {
+                $(this).addClass('selected');
+                return;
+            }
+        });
+
+        $('#searchInput').bind('keypress',function(event){
+            if(event.keyCode == "13")
+            {
+                var keywords = $('#searchInput').val();
+                if (keywords == '') {
+                    alert('请输入搜索关键字');
+                    return;
+                }
+                location.href = "/klxuexi/index.php/home/search/search.html" + "?keywords=" + keywords;
+            }
+        });
+    });
+
+    function search() {
+        var keywords = $('.input-group .form-control').val();
+        if (keywords == '') {
+            alert('请输入搜索关键字');
+            return;
+        }
+        location.href = "/klxuexi/index.php/home/search/search.html" + "?keywords=" + keywords;
+    }
+</script>
+
+</div>
+
+    <!--导航开始-->
+
+<!--导航结束-->
+
+
+    <!--banner开始-->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <!-- 轮播（Carousel）指标 -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- 轮播（Carousel）项目 -->
+    <div class="carousel-inner">
+        <div class="item active">
+                    <a href="http://mp.weixin.qq.com/s?__biz=MzA5OTIyNjM0Mw==&amp;mid=2649957621&amp;idx=1&amp;sn=5cf1b444598aa0823d855967bc1b990e&amp;chksm=8882037dbff58a6bd1c1179fb003a3d6cf0f3acc306a95c38fe924c8f691cc69288832fcb57e&amp;scene=0#wechat_redirect"
+                           target="_blank"><img src="../../../Data/Picture/Common/slider/57fafe19df4a6.jpg" style="width:100%"
+                                                data-src=" " alt="First slide"></a>
+                                            <div class="carousel-caption"></div>
+                </div>
+                                <div class="item">
+                    <a href="http://mp.weixin.qq.com/s?__biz=MjM5OTAwMzU0MQ==&amp;mid=506432869&amp;idx=1&amp;sn=5197ad5bd33af02466b28d42af54327f&amp;scene=1&amp;srcid=0813eqoIhncJdNrtN1XyOjoG#wechat_redirect"
+                           target="_blank"><img src="../../../Data/Picture/Common/slider/57e389d0279c2.jpg" style="width:100%"
+                                                data-src=" " alt="First slide"></a>
+                                            <div class="carousel-caption"></div>
+                </div>                <div class="item">
+                                            <img src="../../../Data/Picture/Common/slider/57e389e2e3a61.jpg" style="width:100%"
+                             data-src=" " alt="First slide">                    <div class="carousel-caption"></div>
+                </div>                <div class="item">
+                                            <img src="../../../Data/Picture/Common/slider/57e389f6098f6.jpg" style="width:100%"
+                             data-src=" " alt="First slide">                    <div class="carousel-caption"></div>
+                </div>    </div>
+    <!-- 轮播（Carousel）导航 -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span
+            class="glyphicon glyphicon-chevron-left"></span></a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next"><span
+
+            class="glyphicon glyphicon-chevron-right"></span></a>
+</div><!-- /.carousel -->
+    <!--banner结束-->
+
+
+    <div style="width:100%;height:auto;overflow: hidden;">
+        <style>
+            .more_info:hover {
+                background-color: #f5f5f5;
+                cursor: pointer;
+            }
+        </style>
+        <div class="container content_area">
+            <div style="color:#666666;font-family:微软雅黑;font-size:14px;line-height:1.8;height: 200px;margin-top: 50px;margin-bottom: 50px;"
+                 align="center">
+                <p style="margin: 0px;">快乐学习教育科技集团，是福建省最大、全国最具影响力的大型教育机构之一</p>
+                <p style="margin: 0px;">旗下拥有“快乐学习”教育培训学校、“享学”网络科技、“艾酷”游学、厦门“佳音”少儿英语、“采艺”艺考项目等多个教育品牌</p>
+                <p style="margin: 0px;">我们开创独特学习方法，形成多元化品牌，改变教育业态</p>
+                <p style="margin: 0px;">三尺讲台是我们的起点，更是我们通向美好未来的桥梁</p>
+                <a href="/klxuexi/index.php/home/index/aboutus" id="contactUs">
+                    <div class="more_info"
+                         style="color: #666;width:200px;font-size:16px;border-radius:20px;border: 1px solid #ccc;font-size:18px;padding-top: 2px;padding-bottom: 2px;margin-top: 50px;">
+                        了解详情
+                    </div>
+                </a>
+            </div>
+
+
+            <div class="row block">
+                <div class="col-lg-12" align="center" style="margin-top: 30px;margin-bottom: 30px;">
+                    <p><span style="font-size:40px;font-family:Arial;color:#02B389;">COURSE RECOMMENDATION</span></p>
+                    <p>
+                    <span style="font-family:微软雅黑;color:#E2E3E5;">
+                        ——————— &nbsp;
+                        <span style="font-family:微软雅黑;font-size:18px;color:#333333;">课程推荐</span>
+                        &nbsp;———————
+                    </span>
+                    </p>
+                </div>
+            </div>
+            <style>
+                .course_pic_area:hover .course_pic {
+                    background-color: #fff;
+                    opacity: 0.4;
+                    width: 290px;
+                    height: 300px;
+                    position: absolute;
+                    top: -5px;
+                    left: 0px;
+                    cursor: pointer;
+                }
+
+                .course_pic_area:hover ._pic, .course_pic_area:hover ._pic_text {
+                    border-color: #ccc;
+                    box-shadow: 0 0 5px #ccc;
+                    -webkit-transform: scale(1.05, 1.05);
+                    -moz-transform: scale(1.05, 1.05);
+                    -transform: scale(1.05, 1.05);
+                }
+
+                .course_pic_area {
+                    transition: width 1s;
+                }
+            </style>
+            <div class="row block_content">
+                <div class="col-lg-3 col-md-3 course_pic_area" style="margin-bottom: 30px;">
+                        <a href="/klxuexi/index.php/home/course/showcoursedetail/courseId/100016074">
+                            <div style="height: 200px;margin: 0px;padding: 0px;overflow: hidden;" class="_pic">
+                                <img src="../../../Data/Picture/Common/dxb/courses/course-1.png"
+                                     style="width:285px;height: 200px;background-repeat: none;"/>
+                            </div>
+                            <div style="background-color: #f3f3f3;width:100%;margin: 0px;padding: 0px;"
+                                 class="_pic_text">
+                                <div style="font-size: 14px;">
+                                    <div style="padding: 10px;text-align: left;overflow: hidden;height:40px;">
+                                        2016暑期新高一Mini课                                    </div>
+                                </div>
+                                <div style="border:none;border-top:1px dashed #CCCCCC;margin-left: 10px;;margin-right: 10px;">
+                                </div>
+                                <div style="width:100%;padding: 10px;">
+                                <span style="color: #ff0000;font-size: 14px;">￥<span
+                                        style="font-size: 20px;font-weight: bold;">4400</span></span>
+                                    <span class="fr" style="line-height: 30px;"><i class="fa fa-map-marker"></i> 个性化校区</span>
+                                </div>
+                            </div>
+                            <div class="course_pic"></div>
+                        </a>
+                    </div><div class="col-lg-3 col-md-3 course_pic_area" style="margin-bottom: 30px;">
+                        <a href="/klxuexi/index.php/home/course/showcoursedetail/courseId/100013044">
+                            <div style="height: 200px;margin: 0px;padding: 0px;overflow: hidden;" class="_pic">
+                                <img src="../../../Data/Picture/Common/dxb/courses/course-6.png"
+                                     style="width:285px;height: 200px;background-repeat: none;"/>
+                            </div>
+                            <div style="background-color: #f3f3f3;width:100%;margin: 0px;padding: 0px;"
+                                 class="_pic_text">
+                                <div style="font-size: 14px;">
+                                    <div style="padding: 10px;text-align: left;overflow: hidden;height:40px;">
+                                        高中语文                                    </div>
+                                </div>
+                                <div style="border:none;border-top:1px dashed #CCCCCC;margin-left: 10px;;margin-right: 10px;">
+                                </div>
+                                <div style="width:100%;padding: 10px;">
+                                <span style="color: #ff0000;font-size: 14px;">￥<span
+                                        style="font-size: 20px;font-weight: bold;">1980</span></span>
+                                    <span class="fr" style="line-height: 30px;"><i class="fa fa-map-marker"></i> 厦门各区</span>
+                                </div>
+                            </div>
+                            <div class="course_pic"></div>
+                        </a>
+                    </div><div class="col-lg-3 col-md-3 course_pic_area" style="margin-bottom: 30px;">
+                        <a href="/klxuexi/index.php/home/course/showcoursedetail/courseId/100013150">
+                            <div style="height: 200px;margin: 0px;padding: 0px;overflow: hidden;" class="_pic">
+                                <img src="../../../Data/Picture/Common/dxb/courses/course-5.png"
+                                     style="width:285px;height: 200px;background-repeat: none;"/>
+                            </div>
+                            <div style="background-color: #f3f3f3;width:100%;margin: 0px;padding: 0px;"
+                                 class="_pic_text">
+                                <div style="font-size: 14px;">
+                                    <div style="padding: 10px;text-align: left;overflow: hidden;height:40px;">
+                                        初中英语                                    </div>
+                                </div>
+                                <div style="border:none;border-top:1px dashed #CCCCCC;margin-left: 10px;;margin-right: 10px;">
+                                </div>
+                                <div style="width:100%;padding: 10px;">
+                                <span style="color: #ff0000;font-size: 14px;">￥<span
+                                        style="font-size: 20px;font-weight: bold;">1470</span></span>
+                                    <span class="fr" style="line-height: 30px;"><i class="fa fa-map-marker"></i> 厦门各区</span>
+                                </div>
+                            </div>
+                            <div class="course_pic"></div>
+                        </a>
+                    </div><div class="col-lg-3 col-md-3 course_pic_area" style="margin-bottom: 30px;">
+                        <a href="/klxuexi/index.php/home/course/showcoursedetail/courseId/100013182">
+                            <div style="height: 200px;margin: 0px;padding: 0px;overflow: hidden;" class="_pic">
+                                <img src="../../../Data/Picture/Common/dxb/courses/course-8.png"
+                                     style="width:285px;height: 200px;background-repeat: none;"/>
+                            </div>
+                            <div style="background-color: #f3f3f3;width:100%;margin: 0px;padding: 0px;"
+                                 class="_pic_text">
+                                <div style="font-size: 14px;">
+                                    <div style="padding: 10px;text-align: left;overflow: hidden;height:40px;">
+                                        高中英语                                    </div>
+                                </div>
+                                <div style="border:none;border-top:1px dashed #CCCCCC;margin-left: 10px;;margin-right: 10px;">
+                                </div>
+                                <div style="width:100%;padding: 10px;">
+                                <span style="color: #ff0000;font-size: 14px;">￥<span
+                                        style="font-size: 20px;font-weight: bold;">1980</span></span>
+                                    <span class="fr" style="line-height: 30px;"><i class="fa fa-map-marker"></i> 厦门各区</span>
+                                </div>
+                            </div>
+                            <div class="course_pic"></div>
+                        </a>
+                    </div><div class="col-lg-3 col-md-3 course_pic_area" style="margin-bottom: 30px;">
+                        <a href="/klxuexi/index.php/home/course/showcoursedetail/courseId/100013207">
+                            <div style="height: 200px;margin: 0px;padding: 0px;overflow: hidden;" class="_pic">
+                                <img src="../../../Data/Picture/Common/dxb/courses/course-2.png"
+                                     style="width:285px;height: 200px;background-repeat: none;"/>
+                            </div>
+                            <div style="background-color: #f3f3f3;width:100%;margin: 0px;padding: 0px;"
+                                 class="_pic_text">
+                                <div style="font-size: 14px;">
+                                    <div style="padding: 10px;text-align: left;overflow: hidden;height:40px;">
+                                        初中语文                                    </div>
+                                </div>
+                                <div style="border:none;border-top:1px dashed #CCCCCC;margin-left: 10px;;margin-right: 10px;">
+                                </div>
+                                <div style="width:100%;padding: 10px;">
+                                <span style="color: #ff0000;font-size: 14px;">￥<span
+                                        style="font-size: 20px;font-weight: bold;">1470</span></span>
+                                    <span class="fr" style="line-height: 30px;"><i class="fa fa-map-marker"></i> 厦门各区</span>
+                                </div>
+                            </div>
+                            <div class="course_pic"></div>
+                        </a>
+                    </div><div class="col-lg-3 col-md-3 course_pic_area" style="margin-bottom: 30px;">
+                        <a href="/klxuexi/index.php/home/course/showcoursedetail/courseId/100017189">
+                            <div style="height: 200px;margin: 0px;padding: 0px;overflow: hidden;" class="_pic">
+                                <img src="../../../Data/Picture/Common/dxb/courses/course-5.png"
+                                     style="width:285px;height: 200px;background-repeat: none;"/>
+                            </div>
+                            <div style="background-color: #f3f3f3;width:100%;margin: 0px;padding: 0px;"
+                                 class="_pic_text">
+                                <div style="font-size: 14px;">
+                                    <div style="padding: 10px;text-align: left;overflow: hidden;height:40px;">
+                                        高中数学                                    </div>
+                                </div>
+                                <div style="border:none;border-top:1px dashed #CCCCCC;margin-left: 10px;;margin-right: 10px;">
+                                </div>
+                                <div style="width:100%;padding: 10px;">
+                                <span style="color: #ff0000;font-size: 14px;">￥<span
+                                        style="font-size: 20px;font-weight: bold;">1980</span></span>
+                                    <span class="fr" style="line-height: 30px;"><i class="fa fa-map-marker"></i> 厦门各区</span>
+                                </div>
+                            </div>
+                            <div class="course_pic"></div>
+                        </a>
+                    </div><div class="col-lg-3 col-md-3 course_pic_area" style="margin-bottom: 30px;">
+                        <a href="/klxuexi/index.php/home/course/showcoursedetail/courseId/100018020">
+                            <div style="height: 200px;margin: 0px;padding: 0px;overflow: hidden;" class="_pic">
+                                <img src="../../../Data/Picture/Common/dxb/courses/course-3.png"
+                                     style="width:285px;height: 200px;background-repeat: none;"/>
+                            </div>
+                            <div style="background-color: #f3f3f3;width:100%;margin: 0px;padding: 0px;"
+                                 class="_pic_text">
+                                <div style="font-size: 14px;">
+                                    <div style="padding: 10px;text-align: left;overflow: hidden;height:40px;">
+                                        2016暑期新初二Mini课                                    </div>
+                                </div>
+                                <div style="border:none;border-top:1px dashed #CCCCCC;margin-left: 10px;;margin-right: 10px;">
+                                </div>
+                                <div style="width:100%;padding: 10px;">
+                                <span style="color: #ff0000;font-size: 14px;">￥<span
+                                        style="font-size: 20px;font-weight: bold;">1900</span></span>
+                                    <span class="fr" style="line-height: 30px;"><i class="fa fa-map-marker"></i> 个性化校区</span>
+                                </div>
+                            </div>
+                            <div class="course_pic"></div>
+                        </a>
+                    </div><div class="col-lg-3 col-md-3 course_pic_area" style="margin-bottom: 30px;">
+                        <a href="/klxuexi/index.php/home/course/showcoursedetail/courseId/100017490">
+                            <div style="height: 200px;margin: 0px;padding: 0px;overflow: hidden;" class="_pic">
+                                <img src="../../../Data/Picture/Common/dxb/courses/course-7.png"
+                                     style="width:285px;height: 200px;background-repeat: none;"/>
+                            </div>
+                            <div style="background-color: #f3f3f3;width:100%;margin: 0px;padding: 0px;"
+                                 class="_pic_text">
+                                <div style="font-size: 14px;">
+                                    <div style="padding: 10px;text-align: left;overflow: hidden;height:40px;">
+                                        初中数学                                    </div>
+                                </div>
+                                <div style="border:none;border-top:1px dashed #CCCCCC;margin-left: 10px;;margin-right: 10px;">
+                                </div>
+                                <div style="width:100%;padding: 10px;">
+                                <span style="color: #ff0000;font-size: 14px;">￥<span
+                                        style="font-size: 20px;font-weight: bold;">1470</span></span>
+                                    <span class="fr" style="line-height: 30px;"><i class="fa fa-map-marker"></i> 厦门各区</span>
+                                </div>
+                            </div>
+                            <div class="course_pic"></div>
+                        </a>
+                    </div>
+            </div>
+
+            <div class="row" align="center" style="margin-bottom: 50px;margin-top: 20px;">
+                <div style="text-align: center;height: 40px;line-height: 40px;background-color: #f3f3f3;width: 300px;font-size: 14px;font-family: '宋体'"
+                     class="cur">
+                    <a href="/klxuexi/index.php/home/course/index.html">查看更多课程 <i class="fa fa-angle-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div style="width:100%;height:auto;background-color: #f5f5f5;overflow: hidden;">
+        <div class="container content_area">
+            <div class="row block">
+                <div class="col-lg-12" align="center" style="margin-top: 30px;margin-bottom: 30px;">
+                    <p><span style="font-size:40px;font-family:Arial;color:#02B389;">STAR TEACHER</span></p>
+                    <p>
+                    <span style="font-family:微软雅黑;color:#E2E3E5;">
+                        ——————— &nbsp;
+                        <span style="font-family:微软雅黑;font-size:18px;color:#333333;">星级名师</span>
+                        &nbsp;———————
+                    </span>
+                    </p>
+                </div>
+            </div>
+
+            <style>
+                .teacher_pic_area:hover .teacher_pic {
+                    background-color: #f5f5f5;
+                    opacity: 0.5;
+                    width: 295px;
+                    height: 200px;
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                    cursor: pointer;
+                }
+
+                .teacher_pic_area:hover ._pic {
+                    border-color: #ccc;
+                    box-shadow: 0 0 5px #ccc;
+                }
+            </style>
+            <div class="row block_content">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12" style="margin-bottom: 15px; ">
+                        <div class="row teacher_pic_area">
+                            <div class="col-lg-6" style="height: 200px;overflow: hidden;">
+                                <a href="/klxuexi/index.php/home/teacher/showteacherdetail/teacherId/2482"
+                                   class=" _pic">
+                                    <div style="width:285px;height:200px;background-image: url('../../../Data/Picture/2016-07-01/5776461fcb2e4.JPG');background-repeat: no-repeat;"></div>
+                                    <!--<img src=""
+                                         style="width:285px;background-repeat: none;" class=""/>-->
+                                    <div class="teacher_pic"></div>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 _pic_text" style="background-color: #fff;height:200px;">
+                                <div class="row" style="margin: 5px;"><span style="font-weight: bold;font-size: 16px;">李洪忠</span>
+                                </div>
+                                <div class="row" style="margin: 5px;">
+                                                                                                            <div class="fl"
+                                         style="margin-right:5px;font-size: 14px;padding-left:10px;padding-right:10px;border-radius: 20px;border: 1px solid #CCCCCC;width: 50px;text-align: center;height: 30px;line-height: 28px;">
+                                        语文                                    </div>
+                                                                                                            <div class="fl"
+                                         style="margin-right:5px;font-size: 14px;padding-left:10px;padding-right:10px;border-radius: 20px;border: 1px solid #CCCCCC;width: 50px;text-align: center;height: 30px;line-height: 28px;">
+                                        高中                                    </div>
+                                                                                                            <div class="fl"
+                                         style="margin-right:5px;font-size: 14px;padding-left:10px;padding-right:10px;border-radius: 20px;border: 1px solid #CCCCCC;width: 80px;text-align: center;height: 30px;line-height: 28px;">
+                                        优秀名师                                    </div>
+                                                                    </div>
+                                <div class="row" style="margin: 5px;font-size: 14px;">
+                                    <div style="text-indent:2em;">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><div class="col-lg-6 col-md-12 col-sm-12 col-xs-12" style="margin-bottom: 15px; ">
+                        <div class="row teacher_pic_area">
+                            <div class="col-lg-6" style="height: 200px;overflow: hidden;">
+                                <a href="/klxuexi/index.php/home/teacher/showteacherdetail/teacherId/2507"
+                                   class=" _pic">
+                                    <div style="width:285px;height:200px;background-image: url('../../../Data/Picture/2016-07-01/577648a1da2cf.JPG');background-repeat: no-repeat;"></div>
+                                    <!--<img src=""
+                                         style="width:285px;background-repeat: none;" class=""/>-->
+                                    <div class="teacher_pic"></div>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 _pic_text" style="background-color: #fff;height:200px;">
+                                <div class="row" style="margin: 5px;"><span style="font-weight: bold;font-size: 16px;">肖健芳</span>
+                                </div>
+                                <div class="row" style="margin: 5px;">
+                                                                                                            <div class="fl"
+                                         style="margin-right:5px;font-size: 14px;padding-left:10px;padding-right:10px;border-radius: 20px;border: 1px solid #CCCCCC;width: 50px;text-align: center;height: 30px;line-height: 28px;">
+                                        数学                                    </div>
+                                                                                                            <div class="fl"
+                                         style="margin-right:5px;font-size: 14px;padding-left:10px;padding-right:10px;border-radius: 20px;border: 1px solid #CCCCCC;width: 50px;text-align: center;height: 30px;line-height: 28px;">
+                                        初中                                    </div>
+                                                                                                            <div class="fl"
+                                         style="margin-right:5px;font-size: 14px;padding-left:10px;padding-right:10px;border-radius: 20px;border: 1px solid #CCCCCC;width: 80px;text-align: center;height: 30px;line-height: 28px;">
+                                        优秀讲师                                    </div>
+                                                                    </div>
+                                <div class="row" style="margin: 5px;font-size: 14px;">
+                                    <div style="text-indent:2em;">
+                                        <span>快乐学习厦门大小班金牌数学教师
+快乐学习初中数学备课组组长
+2015年度厦门大小班年度“最受学生欢迎”老师</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><div class="col-lg-6 col-md-12 col-sm-12 col-xs-12" style="margin-bottom: 15px; ">
+                        <div class="row teacher_pic_area">
+                            <div class="col-lg-6" style="height: 200px;overflow: hidden;">
+                                <a href="/klxuexi/index.php/home/teacher/showteacherdetail/teacherId/1587"
+                                   class=" _pic">
+                                    <div style="width:285px;height:200px;background-image: url('../../../Data/Picture/2016-07-01/5776467703313.jpg');background-repeat: no-repeat;"></div>
+                                    <!--<img src=""
+                                         style="width:285px;background-repeat: none;" class=""/>-->
+                                    <div class="teacher_pic"></div>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 _pic_text" style="background-color: #fff;height:200px;">
+                                <div class="row" style="margin: 5px;"><span style="font-weight: bold;font-size: 16px;">宋龙凤</span>
+                                </div>
+                                <div class="row" style="margin: 5px;">
+                                                                                                            <div class="fl"
+                                         style="margin-right:5px;font-size: 14px;padding-left:10px;padding-right:10px;border-radius: 20px;border: 1px solid #CCCCCC;width: 50px;text-align: center;height: 30px;line-height: 28px;">
+                                        数学                                    </div>
+                                                                                                            <div class="fl"
+                                         style="margin-right:5px;font-size: 14px;padding-left:10px;padding-right:10px;border-radius: 20px;border: 1px solid #CCCCCC;width: 50px;text-align: center;height: 30px;line-height: 28px;">
+                                        高中                                    </div>
+                                                                                                            <div class="fl"
+                                         style="margin-right:5px;font-size: 14px;padding-left:10px;padding-right:10px;border-radius: 20px;border: 1px solid #CCCCCC;width: 80px;text-align: center;height: 30px;line-height: 28px;">
+                                        优秀名师                                    </div>
+                                                                    </div>
+                                <div class="row" style="margin: 5px;font-size: 14px;">
+                                    <div style="text-indent:2em;">
+                                        <span>        高中数学组备课组组长，快乐学习考试研究中心带头人，过去曾多次获快乐学习“优秀教师”称号，获得厦门日报“金口碑教师”称号，8年毕业班教学经验，准确把握高考数学命题趋势，多带学生累计超过6000人。</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><div class="col-lg-6 col-md-12 col-sm-12 col-xs-12" style="margin-bottom: 15px; ">
+                        <div class="row teacher_pic_area">
+                            <div class="col-lg-6" style="height: 200px;overflow: hidden;">
+                                <a href="/klxuexi/index.php/home/teacher/showteacherdetail/teacherId/1501"
+                                   class=" _pic">
+                                    <div style="width:285px;height:200px;background-image: url('../../../Data/Picture/2016-07-01/577646aacc877.jpg');background-repeat: no-repeat;"></div>
+                                    <!--<img src=""
+                                         style="width:285px;background-repeat: none;" class=""/>-->
+                                    <div class="teacher_pic"></div>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 _pic_text" style="background-color: #fff;height:200px;">
+                                <div class="row" style="margin: 5px;"><span style="font-weight: bold;font-size: 16px;">方幼清</span>
+                                </div>
+                                <div class="row" style="margin: 5px;">
+                                                                                                            <div class="fl"
+                                         style="margin-right:5px;font-size: 14px;padding-left:10px;padding-right:10px;border-radius: 20px;border: 1px solid #CCCCCC;width: 50px;text-align: center;height: 30px;line-height: 28px;">
+                                        英语                                    </div>
+                                                                                                            <div class="fl"
+                                         style="margin-right:5px;font-size: 14px;padding-left:10px;padding-right:10px;border-radius: 20px;border: 1px solid #CCCCCC;width: 50px;text-align: center;height: 30px;line-height: 28px;">
+                                        高中                                    </div>
+                                                                                                            <div class="fl"
+                                         style="margin-right:5px;font-size: 14px;padding-left:10px;padding-right:10px;border-radius: 20px;border: 1px solid #CCCCCC;width: 80px;text-align: center;height: 30px;line-height: 28px;">
+                                        五星名师                                    </div>
+                                                                    </div>
+                                <div class="row" style="margin: 5px;font-size: 14px;">
+                                    <div style="text-indent:2em;">
+                                        <span>尊重一门语言的学习规律，应试永远要像素质看齐！
+一切从学生角度出发，拿出最佳的状态，用最好的方法，教出最棒的学生！</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>            </div>
+            <div class="row" align="center" style="margin-bottom: 50px;margin-top: 20px;">
+                <div style="text-align: center;height: 40px;line-height: 40px;background-color: #fff;width: 300px;font-size: 14px;font-family: '宋体'"
+                     class="cur">
+                    <a href="/klxuexi/index.php/home/teacher/index.html">查看更多名师 <i class="fa fa-angle-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="width:100%;height:auto;overflow: hidden;">
+        <div class="container content_area">
+            <div class="row block">
+                <div class="col-lg-12" align="center" style="margin-top: 30px;margin-bottom: 20px;">
+                    <p><span style="font-size:40px;font-family:Arial;color:#02B389;">LATEST NEWS</span></p>
+                    <p>
+                    <span style="font-family:微软雅黑;color:#E2E3E5;">
+                        ——————— &nbsp;
+                        <span style="font-family:微软雅黑;font-size:18px;color:#333333;">最新消息</span>
+                        &nbsp;———————
+                    </span>
+                    </p>
+                </div>
+            </div>
+            <style>
+                .news_pic_area:hover .news_pic {
+                    background-color: #f5f5f5;
+                    opacity: 0.5;
+                    width: 590px;
+                    height: 200px;
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                    cursor: pointer;
+                }
+
+                .news_pic_area:hover ._pic {
+                    border-color: #ccc;
+                    box-shadow: 0 0 5px #ccc;
+                }
+            </style>
+            <div class="row block_content">
+                <div class="col-lg-6 news_pic_area" style="padding-left:30px;padding-bottom: 30px;">
+
+
+                    <a href="http://mp.weixin.qq.com/s?__biz=MzA5OTIyNjM0Mw==&mid=2649957538&idx=1&sn=8f7f99446db5227f921e1b2cf1232f62&scene=1&srcid=0909V4TSudbMq02ly2uQx7sz#wechat_redirect"
+                           target="_blank" class="_pic">
+                            <div style="height: 200px;margin: 0px;padding: 0px;overflow: hidden;" class="_pic">
+                                <img src="../../../Data/Picture/2016-10-10/57faf95b1786e.jpg"
+                                     style="width:100%;height: 200px;background-repeat: none;"/>
+                            </div>
+                            <div style="margin-left:30px;padding: 0px;overflow: hidden;" class="news_pic"></div>
+
+                            <div style="height:40px;text-align: left;margin-top:30px;background-color: #fff;">
+                                <p>
+                                    <span style="font-family:微软雅黑;font-size:18px;">快乐公益在行动</span>
+                                </p>
+                                <p>
+                                    <span style="font-family:微软雅黑;font-size:14px;color:#999999;">
+                                        2016年7月23日，快乐学习教育科技集团携手厦门大学外文学院在安溪湖上中学举行了“英言厦语•快乐心象”夏令营开营仪式。                                    </span>
+                                </p>
+                            </div>
+                        </a>
+                                        </div>
+                <div class="col-lg-6" style="padding-left:30px;padding-bottom: 30px;">
+                    <div class="row">
+                            <div>
+                                <a href="http://mp.weixin.qq.com/s?__biz=MjM5OTAwMzU0MQ==&mid=2653916856&idx=1&sn=f2ab409d3b84cec98ae70fbbaf910044&chksm=bd193a428a6eb3548d1d3b75d9297eb8ce504c1133c8862261e8a0a93fdd90489fb0c6f19ebd&mpshare=1&scene=1&srcid=1010EpjCnxPhyPH6lFbkdQnl#wechat_redirect"
+                                       target="_blank">
+                                                <span style="font-family:微软雅黑;font-size:18px;">
+                                                    注意：2017高考7门学科考试内容有调整！（附权威解读）| 快学报                                                </span>
+                                    </a>
+                                                                </div>
+                            <div class="row" style="margin-left:-4px;">
+                                <div style="margin-bottom: 15px;margin-left:10px;font-family:'微软雅黑';font-size:14px;color:#999999;">
+                                    教育部近期发布了2017高考考试大纲修订内容，部分学科有较大变动。                                            <span style="margin-top: 10px;margin-bottom: 15px;font-family:'微软雅黑';font-size:14px;color:#999999;">
+                                                        2016-10-10                                             </span>
+                                </div>
+                            </div>
+                        </div><div class="row">
+                            <div>
+                                <a href="http://mp.weixin.qq.com/s?__biz=MjM5OTAwMzU0MQ==&mid=2653916839&idx=1&sn=cde2d1c6e51d79659b4b378e37b4c4b2&chksm=bd193a5d8a6eb34bbf29ae3f470685fdcdd05737ee1be56fb9621c0c6169e5c3814e90628d55&scene=1&srcid=09212naxLXbfNdkRpENZQPF2#wechat_redirect"
+                                       target="_blank">
+                                                <span style="font-family:微软雅黑;font-size:18px;">
+                                                    教育部公布中考改革内容 | 快学报                                                </span>
+                                    </a>
+                                                                </div>
+                            <div class="row" style="margin-left:-4px;">
+                                <div style="margin-bottom: 15px;margin-left:10px;font-family:'微软雅黑';font-size:14px;color:#999999;">
+                                    教育部20日发布《关于进一步推进高中阶段学校考试招生制度改革的指导意见》                                            <span style="margin-top: 10px;margin-bottom: 15px;font-family:'微软雅黑';font-size:14px;color:#999999;">
+                                                        2016-9-21                                             </span>
+                                </div>
+                            </div>
+                        </div><div class="row">
+                            <div>
+                                <a href="http://mp.weixin.qq.com/s?__biz=MzA5OTIyNjM0Mw==&mid=2649957560&idx=1&sn=97d67764fc1b77f0d955608d8a0fad61&scene=1&srcid=0909iZC0kTqK4Kmay1qM8ycQ#wechat_redirect"
+                                       target="_blank">
+                                                <span style="font-family:微软雅黑;font-size:18px;">
+                                                    快乐学习集团与滴滴出行携手送福利                                                </span>
+                                    </a>
+                                                                </div>
+                            <div class="row" style="margin-left:-4px;">
+                                <div style="margin-bottom: 15px;margin-left:10px;font-family:'微软雅黑';font-size:14px;color:#999999;">
+                                    快乐学习将与滴滴出行合作，重磅推出企业版用户福利                                            <span style="margin-top: 10px;margin-bottom: 15px;font-family:'微软雅黑';font-size:14px;color:#999999;">
+                                                        2016-9-09                                             </span>
+                                </div>
+                            </div>
+                        </div><div class="row">
+                            <div>
+                                <a href="http://mp.weixin.qq.com/s?__biz=MzA5MzE0ODU4Ng==&mid=2652533295&idx=1&sn=f1ce900122bc027d818b624930bd4baf&scene=1&srcid=0909JqmvKQWveL017BJb3XzY#wechat_redirect"
+                                       target="_blank">
+                                                <span style="font-family:微软雅黑;font-size:18px;">
+                                                    表彰大会 | 向暑假辛勤工作的小伙伴致敬！                                                </span>
+                                    </a>
+                                                                </div>
+                            <div class="row" style="margin-left:-4px;">
+                                <div style="margin-bottom: 15px;margin-left:10px;font-family:'微软雅黑';font-size:14px;color:#999999;">
+                                    2016年快乐学习厦门个性化暑期表彰大会圆满落幕                                            <span style="margin-top: 10px;margin-bottom: 15px;font-family:'微软雅黑';font-size:14px;color:#999999;">
+                                                        2016-9-09                                             </span>
+                                </div>
+                            </div>
+                        </div>                </div>
+            </div>
+            <div class="row" align="center" style="margin-bottom: 50px;margin-top: 20px;">
+                <div style="margin-top:10px;text-align: center;height: 40px;line-height: 40px;background-color: #f3f3f3;width: 300px;font-size: 14px;font-family: '宋体'"
+                     class="cur">
+                    <a href="/klxuexi/index.php/home/article/latestnews.html">点击查看更多 <i class="fa fa-angle-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container" style="padding-top: 20px">
+                <div style="height:auto;min-height:100px; border-top:1px solid #dddddd;">
+        <p class="title7">友情链接</p>
+        <p class="links">
+            <a target="_blank" href="http://www.xmedu.gov.cn/">厦门市教育局</a>
+            <a target="_blank" href="http://www.xmaes.cn/">厦门市教育科学研究院</a>
+            <a target="_blank" href="http://www.sczsxx.com/zhaokao/xm.html">厦门招生考试网</a>
+            <a target="_blank" href="http://www.eol.cn/">中国教育在线</a>
+            <a target="_blank" href="http://classnet.yizhong.xm.fj.cn/zyw/">厦门一中学习资源网</a>
+            <a target="_blank" href="http://www.neea.edu.cn/">中国教育考试网</a>
+            <a target="_blank" href="http://www.fjedu.gov.cn/">福建省教育厅</a>
+            <a target="_blank" href="http://www.china-language.gov.cn/">中国语言文字网</a>
+        </p>
+    </div>                            </div>
+
+
+    <div style="float:left; width: 100%">
+        <style>
+    .div_allinline {
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+        clear: both;
+
+    }
+
+    .subdiv_allinline {
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+        _display: inline;
+        *display: inline;
+        zoom: 1;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .cur {
+        cursor: pointer;
+    }
+
+</style>
+
+<div style="width:100%;height:auto;min-height:300px; background-color: #2E3440;">
+    <div class="container">
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 fl" >
+                <div style="color: #CCCCCC;font-size: 16px;">公司链接</div>
+                <div style="color: #fff;font-size: 14px;margin-top: 10px;">
+                    <div><a href="/klxuexi/index.php/home/index/xiamen.html"
+                            style="font-style: normal;color: white;">厦门地区</a></div>
+                    <div><a href="/klxuexi/index.php/home/index/fuzhou.html"
+                            style="font-style: normal;color: white;">福州地区</a></div>
+                    <div><a href="/klxuexi/index.php/home/index/nanchang.html"
+                            style="font-style: normal;color: white;">南昌地区</a></div>
+                    <div><a href="/klxuexi/index.php/home/index/quanzhou.html"
+                            style="font-style: normal;color: white;">泉州地区</a></div>
+                    <div><a href="/klxuexi/index.php/home/index/hefei.html" style="font-style: normal;color: white;">合肥地区</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 fl" >
+                <div style="color: #CCCCCC;font-size: 16px;">旗下品牌</div>
+                <div style="color: #fff;font-size: 14px;margin-top: 10px;">
+                    <div>快乐学习</div>
+                    <div><a href="http://www.entstudy.com/" style="font-style: normal;color: white;" target="_blank">疯狂老师</a>
+                    </div>
+                    <div>享学</div>
+                    <div>问浩</div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 fl">
+                <div style="color: #CCCCCC;font-size: 16px;">关于我们</div>
+                <div style="color: #fff;font-size: 14px;margin-top: 10px;">
+                    <div><a href="/klxuexi/index.php/home/index/aboutus.html#introduce"
+                            style="font-style: normal;color: white;">集团介绍</a></div>
+                    <div><a href="/klxuexi/index.php/home/index/aboutus.html#theory" style="font-style: normal;color: white;">教育理念</a>
+                    </div>
+                    <div><a href="/klxuexi/index.php/home/index/aboutus.html#backgd" style="font-style: normal;color: white;">教育愿景</a>
+                    </div>
+                    <div><a href="/klxuexi/index.php/home/index/contact.html" style="font-style: normal;color: white;">联系我们</a></div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 fl">
+                <div style="color: #CCCCCC;font-size: 16px;">关注我们</div>
+                <div style="color: #fff;font-size: 14px;margin-top: 15px;">
+                    <div>
+                        <img src="/klxuexi/Public/images/area/klxx_wx90.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" align="center">
+            <div class="div_allinline" style="margin-top: 20px;">
+                <div class="subdiv_allinline"
+                     style="width:60px;height:60px;line-height:60px;text-align:center;border-radius: 50%;font-size: 30px;background-color: #43474E;color: #fff;">
+                    <a href="http://weibo.com/klxuexi" style="color: #fff;"><i class="fa fa-weibo"></i></a></div>
+                <div class="subdiv_allinline dropdown"
+                     style="width:60px;height:60px;line-height:60px;text-align:center;border-radius: 50%;font-size: 30px;background-color: #43474E;color: #fff;">
+                    <i class="fa fa-qq cur" title="QQ群：182600724" data-toggle="dropdown"></i>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="javascript:void(0);">QQ群：2011534794</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="subdiv_allinline dropdown"
+                     style="width:60px;height:60px;line-height:60px;text-align:center;border-radius: 50%;font-size: 30px;background-color: #43474E;color: #fff;">
+                    <i class="fa fa-map-marker cur" title="总部地址：福建省 厦门市 思明区 文屏路 文屏大厦" data-toggle="dropdown"></i>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="javascript:void(0);">总部地址：福建省 厦门市
+                            思明区 文屏路 文屏大厦</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row" align="center">
+            <div class="div_allinline" style="margin-top: 15px;">
+                <div class="subdiv_allinline" style="color: rgb(126, 128, 129);">Copyright © 2008-2012快乐学习 Klxuexi.com
+                    All Rights Reserved
+                </div>
+
+            </div>
+            <div class="div_allinline" style="margin-top: 5px;margin-bottom: 5px">
+                <div class="subdiv_allinline" style="color: rgb(126, 128, 129);">沪ICP备12024438号</div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+
+</body>
+</html>
